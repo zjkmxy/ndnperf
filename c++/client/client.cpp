@@ -3,7 +3,7 @@
 
 Client::Client(const std::string &prefix, size_t window, const std::string &file_path)
         : Module(1)
-        , _face(std::make_shared<ndn::TcpTransport>("127.0.0.1", "6363"), _ios)
+        , _face(_ios)
         , _prefix(prefix)
         , _window(window)
         , _timer(_ios)

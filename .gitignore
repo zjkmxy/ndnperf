@@ -1,3 +1,8 @@
 *.class
 java/server/out/
 java/client/out/
+.vscode
+**/.DS_Store
+*~
+*.dSYM
+
